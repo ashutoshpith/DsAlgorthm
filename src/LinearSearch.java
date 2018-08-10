@@ -26,7 +26,7 @@ public class LinearSearch {
 
         int k=scanner.nextInt();
         int p=linearSearch(a,k);
-        
+
         System.out.println("Here is the index of the number via Linear Search");
         System.out.println(p);
 
