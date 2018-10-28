@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc6b522-73cf-4416-af10-d953b8e2dd6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swingx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DsAlgothm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DsAlgothm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/reverse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,22 +56,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="256" />
+          <entry key="java" value="931" />
+          <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="256" />
+          <entry key="JAVA" value="931" />
+          <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
     </session>
@@ -144,11 +135,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reverse.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/swingx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="432">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,6 +177,7 @@
         <option value="$PROJECT_DIR$/src/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/ko.java" />
         <option value="$PROJECT_DIR$/src/reverse.java" />
+        <option value="$PROJECT_DIR$/src/swingx.java" />
       </list>
     </option>
   </component>
@@ -223,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540703412760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540704745299" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -244,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.reverse">
+  <component name="RunManager" selected="Application.swingx">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="DsAlgothm" />
@@ -266,13 +266,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array" />
-      <module name="DsAlgothm" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reverse" />
       <module name="DsAlgothm" />
@@ -280,20 +273,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="swingx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swingx" />
+      <module name="DsAlgothm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.array" />
       <item itemvalue="Application.InsertionSort" />
       <item itemvalue="Application.LinearSearch" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.reverse" />
+      <item itemvalue="Application.swingx" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.swingx" />
         <item itemvalue="Application.reverse" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.array" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +309,7 @@
       <updated>1533835714022</updated>
       <workItem from="1533835725055" duration="4750000" />
       <workItem from="1533918373271" duration="3167000" />
-      <workItem from="1540702609594" duration="758000" />
+      <workItem from="1540702609594" duration="2101000" />
     </task>
     <task id="LOCAL-00001" summary="array implementation">
       <created>1533838262064</created>
@@ -318,16 +318,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533838262064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="reverse implement using stringbuilder">
+      <created>1540703451403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540703451403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8675000" />
+    <option name="totallyTimeSpent" value="10018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="680" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18186696" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18186696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -337,12 +345,12 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32760474" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32760474" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32975295" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32975295" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -366,7 +374,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="array implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="array implementation" />
+    <MESSAGE value="reverse implement using stringbuilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse implement using stringbuilder" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/InsertionSort.java">
@@ -422,9 +431,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reverse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swingx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state relative-caret-position="432">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

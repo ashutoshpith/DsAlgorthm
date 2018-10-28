@@ -2,6 +2,7 @@ public class reverse {
 
    static void dil(String any){
 
+
        StringBuffer stringBuffer=new StringBuffer();
        stringBuffer.append(any);
        stringBuffer.reverse();
