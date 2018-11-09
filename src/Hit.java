@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Hit{
     public static void main(String [] args){
         new Hit();
@@ -15,7 +17,8 @@ class Hit{
        // largerst_smallest_array(a);
          // kth_largest_element_array(a,2);
         //common_elements_in_3_array(input1,input2,input3);
-        System.out.println(first_element_repeat(a));
+        //System.out.println(first_element_repeat(a));
+        remove_element(a,3);
 
 
     }
@@ -103,6 +106,18 @@ class Hit{
             }
         }
 
+
+    }
+
+    public void remove_element(int arr[],int del_key){
+        for (int i = del_key; i <arr.length-1 ; i++) {
+            arr[i]=arr[i+1];
+        }
+        for (int a:arr
+             ) {
+            System.out.println(a);
+
+        }
 
     }
 
