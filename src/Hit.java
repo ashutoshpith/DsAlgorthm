@@ -6,8 +6,8 @@ class Hit{
     Hit(){
         int a[] = {2,8,2,6,7,6,5,7,2,6,8,9};
        // dublicate_arrays(a);
-        largerst_smallest_array(a);
-
+       // largerst_smallest_array(a);
+          kth_largest_element_array(a,2);
 
 
     }
@@ -43,5 +43,17 @@ class Hit{
         System.out.println("largest ::-:>> "+max);
         System.out.println("smallest ::-:>> "+ min);
 
+    }
+
+    public void kth_largest_element_array(int arr[],int key){
+        int c=0;
+        for (int a:arr) {
+            if (a==key) {
+                System.out.println("number" + "::-:>> " + a);
+             c++;            }
+            //System.out.println("---------");
+            //System.out.println(a);
+        }
+        System.out.println("Number of times appear ::-:>> "+c);
     }
 }
