@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc6b522-73cf-4416-af10-d953b8e2dd6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sorting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -70,13 +69,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2371" />
+          <entry key="java" value="2914" />
           <entry key="txt" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2371" />
+          <entry key="JAVA" value="2914" />
           <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
@@ -100,13 +99,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            <state relative-caret-position="400">
+              <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="e#54#55#0" expanded="true" />
                 <element signature="e#78#79#0" expanded="true" />
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#131#132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541722053022" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541725200315" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -275,7 +272,7 @@
       <workItem from="1541451965361" duration="699000" />
       <workItem from="1541500562249" duration="4170000" />
       <workItem from="1541618779268" duration="3310000" />
-      <workItem from="1541671943968" duration="5294000" />
+      <workItem from="1541671943968" duration="6947000" />
     </task>
     <task id="LOCAL-00001" summary="array implementation">
       <created>1533838262064</created>
@@ -295,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24443000" />
+    <option name="totallyTimeSpent" value="26096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1080" extended-state="4" />
@@ -311,7 +308,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32760474" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27604726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -413,13 +410,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Hit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="400">
+          <caret line="42" column="39" lean-forward="true" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="e#54#55#0" expanded="true" />
             <element signature="e#78#79#0" expanded="true" />
-            <element signature="e#95#96#0" expanded="true" />
-            <element signature="e#131#132#0" expanded="true" />
           </folding>
         </state>
       </provider>
