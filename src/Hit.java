@@ -4,10 +4,17 @@ class Hit{
     }
 
     Hit(){
+
         int a[] = {2,8,2,6,7,6,5,7,2,6,8,9};
+        int input1[] = {1, 5, 10, 20, 40, 80};
+        int input2[] = {6, 7, 20, 80, 100};
+        int input3[] = {3, 4, 15, 20, 30, 70, 80, 120};
+
+
        // dublicate_arrays(a);
        // largerst_smallest_array(a);
-          kth_largest_element_array(a,2);
+         // kth_largest_element_array(a,2);
+        common_elements_in_3_array(input1,input2,input3);
 
 
     }
@@ -51,9 +58,27 @@ class Hit{
             if (a==key) {
                 System.out.println("number" + "::-:>> " + a);
              c++;            }
-            //System.out.println("---------");
-            //System.out.println(a);
+
         }
         System.out.println("Number of times appear ::-:>> "+c);
     }
+
+    public void common_elements_in_3_array(int arr1[],int arr2[],int arr3[]){
+        for (int a1:arr1) {
+            for (int a2:arr2
+                 ) {
+                for (int a3:arr3
+                     ) {
+                    if (a1==a2 && a2==a3){
+                        System.out.println(a1);
+                    }
+                }
+            }
+        }
+
+        //------------LOC-::-:>>---------------//
+        //------------LOC-::-:>>---------------//
+
+    }
+
 }
