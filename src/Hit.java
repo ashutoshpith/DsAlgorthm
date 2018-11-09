@@ -11,10 +11,11 @@ class Hit{
         int input3[] = {3, 4, 15, 20, 30, 70, 80, 120};
 
 
-       // dublicate_arrays(a);
+        //dublicate_arrays(a);
        // largerst_smallest_array(a);
          // kth_largest_element_array(a,2);
-        common_elements_in_3_array(input1,input2,input3);
+        //common_elements_in_3_array(input1,input2,input3);
+        System.out.println(first_element_repeat(a));
 
 
     }
@@ -64,21 +65,49 @@ class Hit{
     }
 
     public void common_elements_in_3_array(int arr1[],int arr2[],int arr3[]){
+
         for (int a1:arr1) {
-            for (int a2:arr2
-                 ) {
-                for (int a3:arr3
-                     ) {
+            for (int a2:arr2) {
+                for (int a3:arr3) {
                     if (a1==a2 && a2==a3){
                         System.out.println(a1);
                     }
                 }
             }
         }
+    }
 
-        //------------LOC-::-:>>---------------//
-        //------------LOC-::-:>>---------------//
+  public int first_element_repeat(int arr[]){
+      for (int a:arr) {
+          for (int b:arr) {
+              if (a==b)
+                  return a;
+              else
+                  return Integer.valueOf("Not found");
+
+          }
+      }
+         return -1;
+
+  }
+
+    public void add_with_iteself(int arr[]){
+        for (int a:arr) {
+            for (int b:arr) {
+                if (a==b){
+                    System.out.println(a+b);
+                    break;
+
+                }
+
+            }
+        }
+
 
     }
+
+    //------------LOC-::-:>>---------------//
+    //------------LOC-::-:>>---------------//
+
 
 }
