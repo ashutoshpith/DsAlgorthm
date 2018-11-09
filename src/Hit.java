@@ -52,18 +52,16 @@ public class Hit {
     }
 
     public void insertion_sort(int arr[]) {
-        int i,j,t=0;
-        for (i = 0; i <arr.length; i++) {
-            j =i;
-            while ((j>0) && (arr[i] < arr[j-1])){
-                t=arr[i];
-                arr[i]=arr[j];
-                arr[j]=t;
-                j=j-1;
+
+        for (int k = 1; k <arr.length; k++) {
+            int temp = arr[k];
+            int j = k - 1;
+            while (j >= 0 && temp <= arr[j]) {
+                arr[j + 1] = arr[j];
+                j = j - 1;
             }
-
-
+            arr[j + 1] = temp;
         }
     }
 
-}
+    }
